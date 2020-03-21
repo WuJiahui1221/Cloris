@@ -1,0 +1,9 @@
+#求圆柱体底面积和体积
+
+import math
+radius = float(input("Enter the radius of a cylinder:"))
+lenth = float(input("Enter the lenth of a cylinder："))
+area = radius * radius * math.pi
+volume = area * lenth
+print("The area is",str( round(area,4)))
+print("The volume is",str(round(volume,1)))
